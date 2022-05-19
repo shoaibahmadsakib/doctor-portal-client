@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import chair from "../Assets/images/chair.png";
+import chair from "../../Assets/images/chair.png";
 import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 

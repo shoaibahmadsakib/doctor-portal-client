@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { format } from "date-fns";
-import Service from "./Service";
-import BookingModal from "./BookingModal";
+import Service from "../../components/Service";
+import BookingModal from "../../components/BookingModal";
 
 const AvailableAppintment = ({ date }) => {
   const [services, setServices] = useState([]);

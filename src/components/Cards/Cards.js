@@ -1,11 +1,11 @@
 import React from "react";
 import ThreeCardSection from "./ThreeCardSection";
-import clockIcon from "../Assets/icons/clock.svg";
-import phoneIcon from "../Assets/icons/phone.svg";
-import markerIcon from "../Assets/icons/marker.svg";
+import clockIcon from "../../Assets/icons/clock.svg";
+import phoneIcon from "../../Assets/icons/phone.svg";
+import markerIcon from "../../Assets/icons/marker.svg";
 const Cards = () => {
   return (
-    <div className="grid grid-cols-3 gap-5 px-8">
+    <div className="grid grid-cols-3 gap-5 px-10">
       <ThreeCardSection
         textContent="opening hours"
         bgColor="bg-cyan-400"
